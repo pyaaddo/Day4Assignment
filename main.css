@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+:root{
+    --font: 'Noto sans';
+    --color: #5051DB;
+    --circle: rgba(80, 81, 219, 0.05);
+}
+
+*{
+    font-family: var(--color);
+    margin:0; padding:0;
+    box-sizing: border-box;
+}
+
+.header{
+    background: url(assets/bg.png);
+}
+.nav{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: auto;
+    width: 90%
+}
+.header .nav .hlink a{
+    margin-right: 54px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    z-index: 5;
+
+}
+
+.gtouch{
+
+    background: #FFFFFF;
+    border-radius: 24px;
+    width: 154.26px;
+    height: 47px;
+    border: none;
+}
+.header .nav .hlink button{
+    color: var(--color);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+}
+.buld{
+    /* border: 1px solid black; */
+    width: 496px;
+    height: 146px;
+    margin-top: 164.24px;
+    margin-left: 91px;
+}
+.bproduct{
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 53.7049px;
+    line-height: 73px;
+    color: var(--color)
+}
+.lr{
+    width: 555px;
+    height: 105px;
+    margin-left: 91px;
+    margin-top: 21px;
+}
+
+.lorem{
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 221.2%;
+    color: #A4A4A4;
+}
+
+.button1{
+    margin-left: 91px;
+    margin-top: 42px;
+    width: 290px;
+    height: 78px;
+}
+.bt{
+    width: 100%;
+    height: 100%;
+    background: var(--color);
+    border-radius: 40px;
+    border: none;
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.hero{
+ 
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.waw{
+    width: 222px;
+    height:auto;
+    margin-top: 215px;
+}
+.whoarewe{
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    color: #353686;
+}
+
+.wawsection{
+    
+    margin-left: 91px;
+}
+
+.drive{
+    width: 600px;
+    height: 140px;
+    margin-top: 7px;
+
+}
+.uptima{
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 221.2%;
+    color: #A4A4A4;
+
+}
+
+.omsection{
+ 
+    display: flex;
+    background: url(assets/ellipse64.svg);
+    background-repeat: no-repeat;
+    background-size: fill;
+}
+
+.missionvission{
+    margin-right: 80px;
+    /* display: flex; */
+
+}
+
+.mission{
+    border: none;
+    height: 301px;
+    width: 253px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+    background: #FFFFFF;
+    box-shadow: 6.14925px 6.14925px 92.2388px rgba(80, 81, 219, 0.08); 
+    border-radius: 3.07463px;
+}
+
+.about{
+    border: none;
+    height: 301px;
+    width: 253px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-right: 15px;
+    background: #FFFFFF;
+    box-shadow: 6.14925px 6.14925px 92.2388px rgba(80, 81, 219, 0.08); 
+    border-radius: 3.07463px;
+}
+
+
+.abus{
+   
+    height: 24px;
+    margin-top: 22.7px;
+}
+
+.aboutus{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #353686;
+
+}
+.atext{
+    height: 120px;
+
+}
+
+.text1{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 189.7%;
+    text-align: center;
+    color: #A4A4A4;
+
+}
+.bhero{
+    display: flex;
+}
+
+.core{
+    background: url(assets/bg3-sm.png);
+    background-repeat: no-repeat;
+    background-size: fill;
+    height: 700px;
+    width: 450px
+}
+
+.values{
+    height: 98px;
+    width: 182px;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.our{
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #FFFFFF;
+}
+
+.foffer{
+    display: flex;
+
+}
+.offers{
+    margin-right: 80px; 
+}
+.mission2{
+    margin-left: 30px;
+    border: none;
+    height: 301px;
+    width: 253px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+    background: #FFFFFF;
+    box-shadow: 6.14925px 6.14925px 92.2388px rgba(80, 81, 219, 0.08); 
+    border-radius: 3.07463px;
+}
+
+.woffer{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #353686;
+    text-align: center;
+}
+
+.rofers{
+    margin: auto;
+    width: 90%;
+}
+.tdivs{
+    display: flex;
+    margin-top: 39px;
+    justify-content: space-between;
+
+}
+.t1{
+    width: 588px;
+    height: 650px;
+    padding: 10px 10px 10px 10px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 60px 2px rgba(80, 81, 219, 0.1);
+    border-radius: 6px;
+}
+/* .track{
+    border: 1px solid black;
+
+} */
+.utrack{
+    
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(53, 54, 134, 0.5);
+
+}
+.log{
+    margin-top: 253px;
+}
+.lo{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #353686;
+}
+
+.lheader{
+    margin-top: 25px;
+}
+
+.loh{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(53, 54, 134, 0.9);
+}
+.umon{
+    margin-top: 28.61;
+
+}
+.umo{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.3129px;
+    line-height: 25px;
+
+    color: rgba(53, 54, 134, 0.5);
+}
+
+.track{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.contactpage{
+    margin-top: 92.04px;
+    padding: 50px 50px 50px 50px;
+}
+.cus{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+
+
+    color: #353686;
+}
+.uk-container {
+    max-width: 300px;
+    margin: 0 auto 20px auto;
+  }
+  .uk-timeline .uk-timeline-item .uk-card {
+    max-height: 300px;
+  }
+  
+  .uk-timeline .uk-timeline-item {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .uk-timeline .uk-timeline-item:not(:last-of-type):before {
+    background: #dadee4;
+    content: "";
+    height: 100%;
+    left: 19px;
+    position: absolute;
+    top: 20px;
+    width: 2px;
+    z-index: -1;
+  }
+  .uk-timeline .uk-timeline-item .uk-timeline-icon .uk-badge {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 100%;
+  }
+  
+  .uk-timeline .uk-timeline-item .uk-timeline-content {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0 0 0 1rem;
+  }
+  .tmlnc {
+    padding: 25px 0;
+  }
+  .uk-timeline-content .tmlnc h5 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--text-prim);
+    margin: 0;
+  }
+  .uk-timeline-content .tmlnc p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 221.2%;
+    color: var(--text-grey);
+    margin: 0;
+  }
+  .uk-timeline-icon .uk-badge {
+    background: #3984f5;
+  }
+
+  .tcsection{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 73px;
+  }
+
+.fheader{
+    display: flex;
+    
+}
+
+.wr{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #353686;
+}
+
+.write{
+    height: 66px;
+    width: 591px;
+    margin-left: 30px;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.fname,.email{
+    width: 300px;
+    height: 48px;
+}
+.fname{
+    margin-right: 45px;
+}
+
+.ename,.mail{
+    width: 100%;
+    height: 100%
+}
+
+.describe{
+    margin-top: 54px;
+    height: 141px;
+    width: 100%;
+}
+
+.description{
+    height: 100%;
+    width: 100%;
+}
+
+.btn{
+    margin-top: 30px;
+    width: 100%;
+    height: 48px;
+}
+
+.bt5{
+    height: 100%;
+    width: 100%;
+    background: #5051DB;
+    border-radius: 24px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+.footer{
+   background: var(--color);
+   padding: 50px;
+   margin-top: 10px;
+}
+.footlist{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+li{
+    list-style-type: none ;
+}
+
+.pp{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.locate{
+    width: 172px;
+    height: 46px;
+}
+.location{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+ul{
+    margin-top: 16px;
+}
+.l{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 13px;
+}
+.footlistright{
+    margin-right: 600px;
+}
+
+.socialicons{
+    display: flex;
+}
+.socialmedia{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.facebook{
+    margin-right: 16.15px;
+}
+hr{
+    border: 2px solid #FFFFFF;
+    margin: auto;
+    width: 95%;
+    margin-top: 24px;
+}
+.footlistLeft{
+    margin-left: 30px;
+}
+.finalfoot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.cms{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.belowcontactsection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 73px;
+}
+.nextstep{
+    height: 66px;
+    width: 166px;
+}
+
+h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #353686;
+}
